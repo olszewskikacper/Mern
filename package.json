@@ -1,18 +1,21 @@
 {
   "name": "mern",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Mern project",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "i": "^0.3.7",
+    "nodemon": "^3.1.0",
+    "npm": "^10.5.0"
+  },
   "dependencies": {
     "express": "^4.19.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
   }
 }
